@@ -9,18 +9,22 @@ es unterhält die kommunikation mit dem simulator und leitet ereignisse and die 
 
 import argparse
 import functools
+import ipaddress
 import logging
 import os
+import socket
+import sys
 import weakref
 from pathlib import Path
 from typing import Any, Dict, Generator, Iterable, List, Mapping, Optional, Sequence, Set, Tuple, Union
 
 import matplotlib.style
 from PyQt5 import QtCore, QtWidgets, uic, QtGui
-from PyQt5.QtCore import pyqtSlot
+from PyQt5.QtCore import pyqtSlot, QEventLoop, Qt
 import trio
 import qtrio
 
+from stskit.host_einstellung import HostEinstellungWindow
 from stskit.stsplugin import PluginClient, TaskDone, DEFAULT_HOST, DEFAULT_PORT
 from stskit.zentrale import DatenZentrale
 from stskit.anschlussmatrix import AnschlussmatrixWindow
@@ -332,7 +336,23 @@ async def main_window():
     client = PluginClient(name='STSdispo', autor='bummler', version='0.8',
                           text='STSdispo: grafische fahrpläne, disposition und auswertung')
 
-    await client.connect(host=arguments.host, port=arguments.port)
+    connection = False
+    while not connection:
+        try:
+            await client.connect(host=arguments.host, port=arguments.port)
+            connection = True
+        except OSError:
+            shared_variables = {"host": arguments.host, "close": True}
+            einstellungen = HostEinstellungWindow(shared_variables)
+            einstellungen.setAttribute(Qt.WA_DeleteOnClose)
+            einstellungen.update()
+            einstellungen.show()
+            loop = QEventLoop()
+            einstellungen.destroyed.connect(loop.quit)
+            loop.exec()
+            if shared_variables["close"]:
+                sys.exit()
+            arguments.host = shared_variables["host"]
     window.zentrale.client = client
 
     try:

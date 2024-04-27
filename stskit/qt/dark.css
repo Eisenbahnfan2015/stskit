@@ -5,6 +5,10 @@
     selection-color: #afaf00;
     selection-background-color: #3c3c76 }
 
+QLabel[text="Hostname/IP nicht valide!"] {
+    color:red
+}
+
 QToolTip {
     color: white;
     background-color: #5f5f5f;
