@@ -58,6 +58,7 @@ class HostEinstellungWindow(QtWidgets.QMainWindow):
             ipaddress.IPv4Network(self.ui.hostname_ip.text())
         except ValueError:
             if not self.is_valid_hostname():
+                self.ui.label_keine_verbindung.hide()
                 self.ui.label_falscher_hostname_ip.show()
                 return
         self.shared_variables["host"] = self.ui.hostname_ip.text()
@@ -68,4 +69,3 @@ class HostEinstellungWindow(QtWidgets.QMainWindow):
     def retry(self):
         self.shared_variables["close"] = False
         self.close()
-

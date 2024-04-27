@@ -61,6 +61,10 @@ class Ui_HostEinstellungenWindow(object):
         self.label_falscher_hostname_ip.setAlignment(QtCore.Qt.AlignCenter)
         self.label_falscher_hostname_ip.setTextInteractionFlags(QtCore.Qt.NoTextInteraction)
         self.label_falscher_hostname_ip.setObjectName("label_falscher_hostname_ip")
+        self.label_keine_verbindung = QtWidgets.QLabel(HostEinstellungenWindow)
+        self.label_keine_verbindung.setGeometry(QtCore.QRect(20, 55, 281, 16))
+        self.label_keine_verbindung.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_keine_verbindung.setObjectName("label_keine_verbindung")
 
         self.retranslateUi(HostEinstellungenWindow)
         self.retry.clicked.connect(HostEinstellungenWindow.retry) # type: ignore
@@ -76,3 +80,4 @@ class Ui_HostEinstellungenWindow(object):
         self.retry.setText(_translate("HostEinstellungenWindow", "Wiederholen"))
         self.apply.setText(_translate("HostEinstellungenWindow", "Anwenden"))
         self.label_falscher_hostname_ip.setText(_translate("HostEinstellungenWindow", "Hostname/IP nicht valide!"))
+        self.label_keine_verbindung.setText(_translate("HostEinstellungenWindow", "Verbindung fehlgeschlagen"))
