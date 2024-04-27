@@ -10,6 +10,7 @@ import re
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import pyqtSlot
+from PyQt5.QtWidgets import QApplication
 
 from stskit.qt.ui_host_einstellungen import Ui_HostEinstellungenWindow
 
@@ -28,7 +29,12 @@ class HostEinstellungWindow(QtWidgets.QMainWindow):
         self.ui = Ui_HostEinstellungenWindow()
         self.ui.setupUi(self)
 
-        self.setWindowTitle(f"Einstellungen")
+        self.setWindowTitle(f"Einstellung")
+
+        if len(QApplication.screens()) > 0:
+            screen_geometry = QApplication.screens()[0].geometry()
+            self.setGeometry(int(screen_geometry.center().x() - 319/2), int(screen_geometry.center().y() - 130/2),
+                             self.geometry().width(), self.geometry().height())
 
         self.ui.hostname_ip.setText(self.shared_variables["host"])
         self.ui.label_falscher_hostname_ip.hide()
