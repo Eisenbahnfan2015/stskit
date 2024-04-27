@@ -9,10 +9,8 @@ es unterhält die kommunikation mit dem simulator und leitet ereignisse and die 
 
 import argparse
 import functools
-import ipaddress
 import logging
 import os
-import socket
 import sys
 import weakref
 from pathlib import Path
