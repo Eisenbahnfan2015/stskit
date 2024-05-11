@@ -1,0 +1,317 @@
+{
+    "_aid": 960,
+    "_build": 5851,
+    "_name": "Ruhland - Hoyerswerda",
+    "_region": "Sachsen",
+    "_version": 2,
+    "zugschema": "deutschland",
+    "anschlussgruppen": {
+        "BHW Abstellungen": {
+            "__class__": "Set",
+            "data": [
+                "19-21o",
+                "19-21w",
+                "58d",
+                "100",
+                "101",
+                "BW"
+            ]
+        },
+        "BSKL Anschluss": {
+            "__class__": "Set",
+            "data": [
+                "BSKL Anschluss"
+            ]
+        },
+        "Caminau": {
+            "__class__": "Set",
+            "data": [
+                "Caminau"
+            ]
+        },
+        "Elsterwerda-Biehla": {
+            "__class__": "Set",
+            "data": [
+                "Elsterwerda-Biehla"
+            ]
+        },
+        "BRU Gbf": {
+            "__class__": "Set",
+            "data": [
+                "Gbf Nord",
+                "Gbf S\u00fcd"
+            ]
+        },
+        "Gro\u00dfenhain": {
+            "__class__": "Set",
+            "data": [
+                "Gro\u00dfenhain"
+            ]
+        },
+        "Hartsteinwerke": {
+            "__class__": "Set",
+            "data": [
+                "Hartsteinwerke"
+            ]
+        },
+        "Kamenz": {
+            "__class__": "Set",
+            "data": [
+                "Kamenz"
+            ]
+        },
+        "Niesky": {
+            "__class__": "Set",
+            "data": [
+                "Niesky "
+            ]
+        },
+        "Quarzwerke": {
+            "__class__": "Set",
+            "data": [
+                "Quarzwerke"
+            ]
+        },
+        "Schwarzheide": {
+            "__class__": "Set",
+            "data": [
+                "Schwarzheide"
+            ]
+        },
+        "Senftenberg": {
+            "__class__": "Set",
+            "data": [
+                "Senftenberg"
+            ]
+        },
+        "Senftenberg Ost": {
+            "__class__": "Set",
+            "data": [
+                "Senftenberg Ost"
+            ]
+        },
+        "Wei\u00dfkollm": {
+            "__class__": "Set",
+            "data": [
+                "Wei\u00dfkollm"
+            ]
+        }
+    },
+    "anschlusslage": {},
+    "bahnsteiggruppen": {
+        "BHC": {
+            "__class__": "Set",
+            "data": [
+                "BHC1",
+                "BHC1S",
+                "BHC2",
+                "BHC3",
+                "BHC5",
+                "BHC4",
+                "BHC14"
+            ]
+        },
+        "BHW": {
+            "__class__": "Set",
+            "data": [
+                "BHW1",
+                "BHW2",
+                "BHW2B",
+                "BHW3",
+                "BHW3B",
+                "BHW4",
+                "BHW4A",
+                "BHW4B",
+                "BHW4C",
+                "BHW5",
+                "BHW5B",
+                "BHW6",
+                "BHW7",
+                "BHW14",
+                "BHW18",
+                "BHW42",
+                "BHW43",
+                "BHW58e",
+                "R"
+            ]
+        },
+        "BHW Vorbahnhof": {
+            "__class__": "Set",
+            "data": [
+                "BHW103",
+                "BHW104",
+                "BHW105",
+                "BHW107",
+                "BHW108"
+            ]
+        },
+        "BLH": {
+            "__class__": "Set",
+            "data": [
+                "BLH1",
+                "BLH2",
+                "BLH3"
+            ]
+        },
+        "BORT": {
+            "__class__": "Set",
+            "data": [
+                "BORT1",
+                "BORT2"
+            ]
+        },
+        "BRU": {
+            "__class__": "Set",
+            "data": [
+                "Azgl",
+                "Azgl Ost",
+                "BRU2",
+                "BRU3",
+                "BRU4",
+                "BRU5",
+                "BRU6",
+                "BRU7",
+                "BRU8"
+            ]
+        },
+        "BSKL": {
+            "__class__": "Set",
+            "data": [
+                "BSKL4",
+                "BSKL5",
+                "BSKL R"
+            ]
+        },
+        "Hoy-Neustadt": {
+            "__class__": "Set",
+            "data": [
+                "Hoy-Neustadt"
+            ]
+        },
+        "Knappenrode": {
+            "__class__": "Set",
+            "data": [
+                "Knappenrode"
+            ]
+        },
+        "Lauta": {
+            "__class__": "Set",
+            "data": [
+                "Lauta"
+            ]
+        },
+        "Plessa": {
+            "__class__": "Set",
+            "data": [
+                "Plessa"
+            ]
+        },
+        "Schwarzheide Ost": {
+            "__class__": "Set",
+            "data": [
+                "Schwarzheide Ost"
+            ]
+        },
+        "Schwarzkollm": {
+            "__class__": "Set",
+            "data": [
+                "Schwarzkollm"
+            ]
+        }
+    },
+    "sektoren": {
+        "BHW2": {
+            "__class__": "Set",
+            "data": [
+                "BHW2",
+                "BHW2B"
+            ]
+        },
+        "BHW3": {
+            "__class__": "Set",
+            "data": [
+                "BHW3",
+                "BHW3B"
+            ]
+        },
+        "BHW4": {
+            "__class__": "Set",
+            "data": [
+                "BHW4",
+                "BHW4C",
+                "BHW4B"
+            ]
+        },
+        "BHW5": {
+            "__class__": "Set",
+            "data": [
+                "BHW5",
+                "BHW5B"
+            ]
+        }
+    },
+    "hauptstrecke": "Elsterwerda-Biehla-Niesky",
+    "strecken": {
+        "Elsterwerda-Biehla-Niesky": [
+            "Elsterwerda-Biehla",
+            "Plessa",
+            "BLH",
+            "BRU",
+            "BHC",
+            "Lauta",
+            "Schwarzkollm",
+            "BSKL",
+            "BHW Vorbahnhof",
+            "BHW",
+            "Hoy-Neustadt",
+            "Knappenrode",
+            "Niesky"
+        ],
+        "Elsterwerda-Biehla-Senftenberg": [
+            "Elsterwerda-Biehla",
+            "Plessa",
+            "BLH",
+            "BRU",
+            "Schwarzheide Ost",
+            "Senftenberg"
+        ],
+        "Gro\u00dfenhain-Niesky": [
+            "Gro\u00dfenhain",
+            "BORT",
+            "BRU",
+            "BHC",
+            "Lauta",
+            "Schwarzkollm",
+            "BSKL",
+            "BHW Vorbahnhof",
+            "BHW",
+            "Hoy-Neustadt",
+            "Knappenrode",
+            "Niesky"
+        ],
+        "Gro\u00dfenhain-Senftenberg": [
+            "Gro\u00dfenhain",
+            "BORT",
+            "BRU",
+            "Senftenberg"
+        ],
+        "Senftenberg Ost-Kamenz": [
+            "Senftenberg Ost",
+            "BHC",
+            "Kamenz"
+        ],
+        "Senftenberg Ost-Niesky": [
+            "Senftenberg Ost",
+            "BHC",
+            "Lauta",
+            "Schwarzkollm",
+            "BSKL",
+            "BHW Vorbahnhof",
+            "BHW",
+            "Hoy-Neustadt",
+            "Knappenrode",
+            "Niesky"
+        ]
+    },
+    "streckenmarkierung": []
+}
