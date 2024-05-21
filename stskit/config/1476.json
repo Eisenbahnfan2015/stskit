@@ -1,0 +1,379 @@
+{
+    "_aid": 1476,
+    "_build": 5851,
+    "_name": "Zittau",
+    "_region": "Sachsen",
+    "_version": 2,
+    "zugschema": "deutschland",
+    "anschlussgruppen": {
+        "DZ Anschlüsse": {
+            "__class__": "Set",
+            "data": [
+                "35-37",
+                "SOEG Normal"
+            ]
+        },
+        "Anschluss DNCU": {
+            "__class__": "Set",
+            "data": [
+                "Anschluss DNCU"
+            ]
+        },
+        "Bertsdorf": {
+            "__class__": "Set",
+            "data": [
+                "Bertsdorf"
+            ]
+        },
+        "Bischofswerda": {
+            "__class__": "Set",
+            "data": [
+                "Bischofswerda"
+            ]
+        },
+        "G\u00f6rlitz": {
+            "__class__": "Set",
+            "data": [
+                "G\u00f6rlitz"
+            ]
+        },
+        "Liberec": {
+            "__class__": "Set",
+            "data": [
+                "Liberec"
+            ]
+        },
+        "L\u00f6bau": {
+            "__class__": "Set",
+            "data": [
+                "L\u00f6bau"
+            ]
+        },
+        "Noprosu II": {
+            "__class__": "Set",
+            "data": [
+                "Noprosu II"
+            ]
+        },
+        "Rumburk": {
+            "__class__": "Set",
+            "data": [
+                "Rumburk"
+            ]
+        },
+        "Rybniste": {
+            "__class__": "Set",
+            "data": [
+                "Rybniste"
+            ]
+        },
+        "SOEG Schmal": {
+            "__class__": "Set",
+            "data": [
+                "SOEG Schmal"
+            ]
+        },
+        "Velveta a.s.": {
+            "__class__": "Set",
+            "data": [
+                "Velveta a.s."
+            ]
+        }
+    },
+    "anschlusslage": {},
+    "bahnsteiggruppen": {
+        "A L\u00f6bau": {
+            "__class__": "Set",
+            "data": [
+                "A L\u00f6bau"
+            ]
+        },
+        "Abzw. H\u00f6llengrund": {
+            "__class__": "Set",
+            "data": [
+                "Abzw. H\u00f6llengrund"
+            ]
+        },
+        "DEB": {
+            "__class__": "Set",
+            "data": [
+                "DEB 1",
+                "DEB 2",
+                "DEB 3",
+                "DEB 4",
+                "DEB 7",
+                "DEB W"
+            ]
+        },
+        "DEIB": {
+            "__class__": "Set",
+            "data": [
+                "DEIB 1"
+            ]
+        },
+        "DGAU": {
+            "__class__": "Set",
+            "data": [
+                "DGAU 1",
+                "DGAU 1G",
+                "DGAU 3",
+                "DGAU 3G"
+            ]
+        },
+        "DHE": {
+            "__class__": "Set",
+            "data": [
+                "DHE"
+            ]
+        },
+        "DHND": {
+            "__class__": "Set",
+            "data": [
+                "DHND"
+            ]
+        },
+        "DLT": {
+            "__class__": "Set",
+            "data": [
+                "DLT"
+            ]
+        },
+        "DMHD": {
+            "__class__": "Set",
+            "data": [
+                "DMHD 1",
+                "DMHD 2",
+                "DMHD 3"
+            ]
+        },
+        "DNCU 1": {
+            "__class__": "Set",
+            "data": [
+                "DNCU 1",
+                "DNCU 2",
+                "DNCU R1",
+                "DNCU R2"
+            ]
+        },
+        "DNF": {
+            "__class__": "Set",
+            "data": [
+                "DNF"
+            ]
+        },
+        "DNOW": {
+            "__class__": "Set",
+            "data": [
+                "DNOW"
+            ]
+        },
+        "DOZ": {
+            "__class__": "Set",
+            "data": [
+                "DOZ"
+            ]
+        },
+        "DOZO": {
+            "__class__": "Set",
+            "data": [
+                "DOZO"
+            ]
+        },
+        "DSFH": {
+            "__class__": "Set",
+            "data": [
+                "DSFH 3"
+            ]
+        },
+        "DZ": {
+            "__class__": "Set",
+            "data": [
+                "DZ 1a",
+                "DZ 1b",
+                "DZ 2a",
+                "DZ 2b",
+                "DZ 3a",
+                "DZ 3b",
+                "DZ 4",
+                "DZ 13",
+                "DZ 14",
+                "DZ 25",
+                "DZ 27",
+                "DZ 40",
+                "DZ 45",
+                "DZ 46",
+                "DZ 54",
+                "DZ 54a"
+            ]
+        },
+        "DZ Sm": {
+            "__class__": "Set",
+            "data": [
+                "DZ Sm 1",
+                "DZ Sm 2"
+            ]
+        },
+        "DZH": {
+            "__class__": "Set",
+            "data": [
+                "DZH"
+            ]
+        },
+        "Dolni Podluzi": {
+            "__class__": "Set",
+            "data": [
+                "Dolni Podluzi"
+            ]
+        },
+        "E L\u00f6bau": {
+            "__class__": "Set",
+            "data": [
+                "E L\u00f6bau"
+            ]
+        },
+        "Gro\u00dfsch\u00f6nau": {
+            "__class__": "Set",
+            "data": [
+                "Gro\u00dfsch\u00f6nau"
+            ]
+        },
+        "Seifhennersdorf": {
+            "__class__": "Set",
+            "data": [
+                "Seifhennersdorf"
+            ]
+        },
+        "VA": {
+            "__class__": "Set",
+            "data": [
+                "VA 1",
+                "VA 1a",
+                "VA 2",
+                "VA 3",
+                "VA 3a",
+                "VA 3b",
+                "VA 4",
+                "VA 92",
+                "VA R1",
+                "VA R2"
+            ]
+        },
+        "Varnsdorf": {
+            "__class__": "Set",
+            "data": [
+                "Varnsdorf"
+            ]
+        },
+        "Varnsdorf stare nadrazi": {
+            "__class__": "Set",
+            "data": [
+                "Varnsdorf stare nadrazi"
+            ]
+        },
+        "Varnsdorf-pivovar Kocour": {
+            "__class__": "Set",
+            "data": [
+                "Varnsdorf-pivovar Kocour"
+            ]
+        }
+    },
+    "sektoren": {
+        "DGAU 1": {
+            "__class__": "Set",
+            "data": [
+                "DGAU 1",
+                "DGAU 1G"
+            ]
+        },
+        "DGAU 3": {
+            "__class__": "Set",
+            "data": [
+                "DGAU 3",
+                "DGAU 3G"
+            ]
+        },
+        "VA 1": {
+            "__class__": "Set",
+            "data": [
+                "VA 1",
+                "VA 1a"
+            ]
+        },
+        "VA 3": {
+            "__class__": "Set",
+            "data": [
+                "VA 3",
+                "VA 3a"
+            ]
+        },
+        "VA 2": {
+            "__class__": "Set",
+            "data": [
+                "VA 2",
+                "VA 92"
+            ]
+        }
+    },
+    "hauptstrecke": "Bischofswerda-Liberec",
+    "strecken": {
+        "Bischofswerda-Liberec": [
+            "Bischofswerda",
+            "DEB",
+            "DNF",
+            "DEIB",
+            "DOZO",
+            "DOZ",
+            "DNOW",
+            "DMHD",
+            "DZ",
+            "Liberec"
+        ],
+        "G\u00f6rlitz-Zittau": [
+            "G\u00f6rlitz",
+            "DHE",
+            "DZ"
+        ],
+        "L\u00f6bau-Liberec": [
+            "L\u00f6bau",
+            "DNCU",
+            "Abzw. H\u00f6llengrund",
+            "DEB",
+            "DNF",
+            "DEIB",
+            "DOZO",
+            "DOZ",
+            "DNOW",
+            "DMHD",
+            "DZ",
+            "Liberec"
+        ],
+        "Rybniste-Liberec": [
+            "Rybniste",
+            "Dolni Podluzi",
+            "VA",
+            "DGAU",
+            "DHND",
+            "DMHD",
+            "DZ",
+            "Liberec"
+        ],
+        "DSFH-Liberec": [
+            "DSFH",
+            "Varnsdorf-pivovar Kocour",
+            "Varnsdorf stare nadrazi",
+            "VA",
+            "DGAU",
+            "DHND",
+            "DMHD",
+            "DZ",
+            "Liberec"
+        ],
+        "SOEG Schmal-Bertsdorf": [
+            "SOEG Schmal",
+            "DZ Sm",
+            "DZH",
+            "Bertsdorf"
+        ]
+    },
+    "streckenmarkierung": []
+}
